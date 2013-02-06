@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Laura's Octopress Blog]]></title>
-  <link href="http://1aurabrown.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Octopress | Laura's Octopress Blog]]></title>
+  <link href="http://1aurabrown.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://1aurabrown.github.com/"/>
   <updated>2013-02-05T19:27:22-05:00</updated>
   <id>http://1aurabrown.github.com/</id>

@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   padding:0;
   border:0;
   font:inherit;
-  font-size:100%;
+  font-size:90%;
   vertical-align:baseline
 }
 html{
@@ -594,9 +594,6 @@ body>nav form .search{
   -webkit-background-clip:padding;
   -moz-background-clip:padding;
   background-clip:padding-box;
-  -webkit-box-shadow:#d1d1d1 0 1px;
-  -moz-box-shadow:#d1d1d1 0 1px;
-  box-shadow:#d1d1d1 0 1px;
   background-color:#f2f2f2;
   border:1px solid #b3b3b3;
   color:#888
@@ -604,9 +601,6 @@ body>nav form .search{
 body>nav form .search:focus{
   color:#444;
   border-color:#80b1df;
-  -webkit-box-shadow:#80b1df 0 0 4px,#80b1df 0 0 3px inset;
-  -moz-box-shadow:#80b1df 0 0 4px,#80b1df 0 0 3px inset;
-  box-shadow:#80b1df 0 0 4px,#80b1df 0 0 3px inset;
   background-color:#fff;
   outline:none
 }
@@ -672,7 +666,6 @@ body>nav ul li{
 body>nav a{
   color:#6b6b6b;
   font-family:"PT Sans","Helvetica Neue",Arial,sans-serif;
-  text-shadow:#ebebeb 0 1px;
   float:left;
   text-decoration:none;
   font-size:1.1em;
@@ -881,9 +874,6 @@ article img,article video,article .flash-video{
   -ms-border-radius:0.3em;
   -o-border-radius:0.3em;
   border-radius:0.3em;
-  -webkit-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
-  -moz-box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
-  box-shadow:rgba(0,0,0,0.15) 0 1px 4px;
   -webkit-box-sizing:border-box;
   -moz-box-sizing:border-box;
   box-sizing:border-box;

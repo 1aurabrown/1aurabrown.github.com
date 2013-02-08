@@ -3,7 +3,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
   padding:0;
   border:0;
   font:inherit;
-  font-size:90%;
+  font-size:97%;
   vertical-align:baseline
 }
 html{
@@ -85,7 +85,7 @@ body>div>div{
   font-family:"Times New Roman","Georgia","Helvetica Neue",Arial,sans-serif
 }
 .sans,body>header h2,article header p.meta,article>footer,#content .blog-index footer,html .gist .gist-file .gist-meta,#blog-archives a.category,#blog-archives time,aside.sidebar section,body>footer{
-  font-family:"PT Sans","Helvetica Neue",Arial,sans-serif
+  font-family:"Times New Roman","Helvetica Neue",Arial,sans-serif
 }
 .serif,body,#content .blog-index a[rel=full-article]{
   font-family:"Times New Roman",Georgia,Times,"Times New Roman",serif
@@ -583,7 +583,7 @@ body>nav form{
 body>nav form .search{
   padding:.3em .5em 0;
   font-size:.85em;
-  font-family:"PT Sans","Helvetica Neue",Arial,sans-serif;
+  font-family:"Times New Roman","Helvetica Neue",Arial,sans-serif;
   line-height:1.1em;
   width:95%;
   -webkit-border-radius:0.5em;
@@ -665,7 +665,7 @@ body>nav ul li{
 }
 body>nav a{
   color:#6b6b6b;
-  font-family:"PT Sans","Helvetica Neue",Arial,sans-serif;
+  font-family:"Times New Roman","Helvetica Neue",Arial,sans-serif;
   float:left;
   text-decoration:none;
   font-size:1.1em;

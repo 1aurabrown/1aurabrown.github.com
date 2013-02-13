@@ -7,7 +7,10 @@
   font-style:normal
 }
 
-
+* {
+  margin:0;
+  padding:0
+}
 
 body
 {
@@ -1035,7 +1038,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   color:#999;
   width:170px;
   margin-top: 20px;
-  margin-bottom20px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -2053,8 +2056,5 @@ figure.code .s1,.gist-highlight .s1
   background:rgba(0,0,0,0.8)
 }
 
-*
-{
-  margin:0;
-  padding:0
-}
+
+

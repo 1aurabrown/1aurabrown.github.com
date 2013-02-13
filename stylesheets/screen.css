@@ -1067,8 +1067,8 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   padding-left:30px;
   position:relative;
 
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .post .meta .date:before,.post .meta .tags:before,.post .meta .comments:before

@@ -1037,8 +1037,6 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   font-size:.9em;
   color:#999;
   width:170px;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -1067,7 +1065,10 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 .post .meta .date,.post .meta .tags,.post .meta .comments
 {
   padding-left:30px;
-  position:relative
+  position:relative;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .post .meta .date:before,.post .meta .tags:before,.post .meta .comments:before

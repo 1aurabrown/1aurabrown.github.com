@@ -7,11 +7,7 @@
   font-style:normal
 }
 
-*
-{
-  margin:0;
-  padding:0
-}
+
 
 body
 {
@@ -2055,4 +2051,10 @@ figure.code .s1,.gist-highlight .s1
   padding:10px;
   background:#000;
   background:rgba(0,0,0,0.8)
+}
+
+*
+{
+  margin:0;
+  padding:0
 }

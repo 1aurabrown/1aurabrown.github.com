@@ -489,7 +489,7 @@ a
 
 #mobile-nav .search .button:before
 {
-  content:"\f002";
+  content:"➔";
   color:#f2f2f2;
   font:20px FontAwesome;
   line-height:30px;

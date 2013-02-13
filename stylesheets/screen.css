@@ -504,7 +504,7 @@ a
 
 #mobile-nav .search .button.on:before
 {
-  content:"\f00d"
+  content:"➔";
 }
 
 #mobile-nav .search .container
@@ -564,7 +564,7 @@ a
 
 #sub-nav .search:before
 {
-  content:"\f002";
+  content:"➔";
   color:#ccc;
   font:18px FontAwesome;
   line-height:30px;

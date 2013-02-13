@@ -1037,7 +1037,6 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 
 .post .meta
 {
-  position:absolute;
   top:85px;
   line-height:2;
   font-size:.9em;
@@ -1096,17 +1095,17 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   }
 }
 
-.post .meta .date:before
+.date:before
 {
   content:"\f073"
 }
 
-.post .meta .tags:before
+.tags:before
 {
   content:"\f02c"
 }
 
-.post .meta .comments:before
+.comments:before
 {
   content:"\f075"
 }
@@ -1223,20 +1222,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   color:#666
 }
 
-.archives article .meta .date:before
-{
-  content:"\f073"
-}
 
-.archives article .meta .tags:before
-{
-  content:"\f02c"
-}
-
-.archives article .meta .comments:before
-{
-  content:"\f075"
-}
 
 #comment
 {

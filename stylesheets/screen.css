@@ -1023,10 +1023,6 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   border-bottom:1px solid #ddd
 }
 
-.post h2.title,.post .entry-content
-{
-  margin-left:200px
-}
 
 @media screen and (max-width: 800px) {
   .post h2.title,.post .entry-content

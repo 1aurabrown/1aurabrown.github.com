@@ -1093,17 +1093,17 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 
 .date:before
 {
-  content:"\f073"
+  content:"\f073";
 }
 
 .tags:before
 {
-  content:"\f02c"
+  content:"\f02c";
 }
 
 .comments:before
 {
-  content:"\f075"
+  content:"\f075";
 }
 
 .archives

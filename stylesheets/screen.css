@@ -848,7 +848,7 @@ article h2.title
   font-size:1.8em;
   font-weight:300;
   line-height:35px;
-  margin-bottom:20px
+  margin-bottom:20px;
 }
 
 article h2.title a
@@ -1038,6 +1038,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   font-size:.9em;
   color:#999;
   width:170px
+  margin: 20px 0 20px 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -1090,6 +1091,8 @@ article .entry-content .video-container iframe,article .entry-content .video-con
     margin-right:30px
   }
 }
+
+
 
 .date:before
 {

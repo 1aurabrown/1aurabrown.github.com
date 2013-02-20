@@ -1,10 +1,8 @@
-@font-face
-{
-  font-family:'FontAwesome';
-  src:url(/font/fontawesome-webfont.eot);
-  src:url(/font/fontawesome-webfont.eot?#iefix) format("embedded-opentype)","url(/font/fontawesome-webfont.woff") format("woff)","url(/font/fontawesome-webfont.ttf") format("truetype)","url(/font/fontawesome-webfont.svgz#FontAwesomeRegular") format("svg)","url(/font/fontawesome-webfont.svg#FontAwesomeRegular") format("svg");
-  font-weight:400;
-  font-style:normal
+@font-face {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: 400;
+  src: local('EB Garamond'), local('EBGaramond'), url(http://themes.googleusercontent.com/static/fonts/ebgaramond/v4/kYZt1bJ8UsGAPRGnkXPeFbrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
 }
 
 *
@@ -15,11 +13,10 @@
 
 body
 {
-  font-family:"HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'EB Garamond';
   font-weight:300;
-  font-size:14px;
-  background:#eee;
-  color:#666
+  font-size:16px;
+  color:#555;
 }
 
 @media screen and (max-width: 1040px) {
@@ -55,7 +52,7 @@ a
 {
   text-decoration:none;
   outline-width:0;
-  color:#258fb8
+  color:#888
 }
 
 .alignleft
@@ -82,7 +79,7 @@ a
 
 .inner
 {
-  width:1000px;
+  width:860px;
   margin:0 auto
 }
 
@@ -132,7 +129,7 @@ a
 
 #header a
 {
-  color:#666;
+  color:#555;
   -webkit-transition:color .3s;
   -moz-transition:color .3s;
   -o-transition:color .3s;
@@ -217,7 +214,7 @@ a
 
 #main-nav>ul>li>a:after
 {
-  content:"\f078";
+  content:"→";
   color:#ccc;
   font:12px FontAwesome;
   padding-left:10px
@@ -310,7 +307,7 @@ a
 
 #main-nav>ul ul li>a:after
 {
-  content:"\f054";
+  content:"→";
   color:#999;
   font:12px FontAwesome;
   padding-left:10px
@@ -421,12 +418,12 @@ a
 
 #mobile-nav .menu .button.on:before
 {
-  content:"\f077"
+  content:"→"
 }
 
 #mobile-nav .menu .button:before
 {
-  content:"\f078";
+  content:"→";
   color:#ddd;
   font:16px FontAwesome;
   line-height:30px;
@@ -489,7 +486,7 @@ a
 
 #mobile-nav .search .button:before
 {
-  content:"\f002";
+  content:"→";
   color:#f2f2f2;
   font:20px FontAwesome;
   line-height:30px;
@@ -505,7 +502,7 @@ a
 
 #mobile-nav .search .button.on:before
 {
-  content:"\f00d"
+  content:"→"
 }
 
 #mobile-nav .search .container
@@ -565,7 +562,7 @@ a
 
 #sub-nav .search:before
 {
-  content:"\f002";
+  content:"→";
   color:#ccc;
   font:18px FontAwesome;
   line-height:30px;
@@ -787,7 +784,7 @@ a
 
 #pagenavi .prev:before
 {
-  content:"\f060";
+  content:"→";
   font:1.3em FontAwesome;
   position:absolute;
   left:0
@@ -801,7 +798,7 @@ a
 
 #pagenavi .next:before
 {
-  content:"\f061";
+  content:"→1";
   font:1.3em FontAwesome;
   position:absolute;
   right:0
@@ -825,7 +822,7 @@ article
 {
   border-bottom:1px solid #ddd;
   border-top:1px solid #fff;
-  padding:30px 0;
+  padding:10px 0;
   position:relative
 }
 
@@ -853,12 +850,12 @@ article h2.title
 
 article h2.title a
 {
-  color:#666
+  color:#555
 }
 
 article .entry-content
 {
-  line-height:2;
+  line-height:1.7em;
   text-align:justify
 }
 
@@ -877,7 +874,7 @@ article .entry-content .more-link
 
 article .entry-content .more-link:before
 {
-  content:"\f061";
+  content:"→";
   font:1.3em FontAwesome;
   line-height:1.6em;
   position:absolute;
@@ -917,7 +914,6 @@ article .entry-content p
 article .entry-content h2
 {
   font-weight:300;
-  border-bottom:1px solid #ddd;
   position:relative
 }
 
@@ -926,7 +922,6 @@ article .entry-content h2:before
   content:"";
   position:absolute;
   bottom:-2px;
-  border-bottom:1px solid #fff;
   width:100%
 }
 
@@ -939,8 +934,7 @@ article .entry-content img,article .entry-content video
 article .entry-content blockquote
 {
   background:#ddd;
-  border-left:5px solid #ccc;
-  padding:15px 20px;
+  padding:20px 20px;
   margin-top:10px
 }
 
@@ -989,7 +983,7 @@ article .entry-content .caption
 
 article .entry-content .caption:before
 {
-  content:"\f040";
+  content:"→";
   color:#ccc;
   font:1.3em FontAwesome;
   line-height:1.6em;
@@ -1042,15 +1036,20 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   /* position:absolute; */
   top:85px;
   line-height:2;
-  font-size:.9em;
+  font-size:1em;
   color:#999;
-  width:170px
+  width:170px;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom:20px;
 }
 
 @media screen and (max-width: 800px) {
   .post .meta
   {
-    margin-top:15px;
+    
+  margin-top: 20px;
+  margin-bottom:20px;
     position:static;
     width:auto
   }
@@ -1100,17 +1099,17 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 
 .post .meta .date:before
 {
-  content:"\f073"
+  content:"→"
 }
 
 .post .meta .tags:before
 {
-  content:"\f02c"
+  content:"→"
 }
 
 .post .meta .comments:before
 {
-  content:"\f075"
+  content:"→"
 }
 
 .archives
@@ -1181,7 +1180,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 .archives article .meta
 {
   color:#999;
-  font-size:.9em;
+  font-size:1em;
   line-height:2;
   margin-top:15px
 }
@@ -1227,17 +1226,17 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 
 .archives article .meta .date:before
 {
-  content:"\f073"
+  content:"→"
 }
 
 .archives article .meta .tags:before
 {
-  content:"\f02c"
+  content:"→"
 }
 
 .archives article .meta .comments:before
 {
-  content:"\f075"
+  content:"→"
 }
 
 #comment
@@ -2072,3 +2071,9 @@ figure.code .s1,.gist-highlight .s1
   background:#000;
   background:rgba(0,0,0,0.8)
 }
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | Laura's Octopress Blog]]></title>
+  <link href="http://1aurabrown.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://1aurabrown.github.com/"/>
+  <updated>2013-02-20T12:31:51-05:00</updated>
+  <id>http://1aurabrown.github.com/</id>
+  <author>
+    <name><![CDATA[Laura Brown]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/05/hello-world/"/>
+    <updated>2013-02-05T19:15:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/05/hello-world</id>
+    <content type="html"><![CDATA[<h2>Hello!</h2>
+
+<p>This is my first blog post on Octopress. I am looking forward to documenting my time spent at the Flatiron School, and will probably post thoughts about other things as well.</p>
+]]></content>
+  </entry>
+  
+</feed>

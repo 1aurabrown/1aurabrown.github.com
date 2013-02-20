@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Laura's Octopress Blog]]></title>
+  <link href="http://1aurabrown.github.com/atom.xml" rel="self"/>
+  <link href="http://1aurabrown.github.com/"/>
+  <updated>2013-02-12T22:39:47-05:00</updated>
+  <id>http://1aurabrown.github.com/</id>
+  <author>
+    <name><![CDATA[Laura Brown]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why I'm Learning to Program]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/12/why-im-learning-to-program/"/>
+    <updated>2013-02-12T09:31:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/12/why-im-learning-to-program</id>
+    <content type="html"><![CDATA[<h2>Here are my thoughts, in a more or less logical order, on why I&#8217;d like to be a programmer:</h2>
+
+<ul>
+<li><p>Technology and the internet dictates culture, society and behaviour. Those in control of technology hold great power.</p></li>
+<li><p>I do not want to be a passive bystander, I want to be in control of the way I use techonology and how technology affects me. I watch my mom using her computer, limited to the ways in which her software permits her to use it, feeling that she has to sign up for Facebook because it has become the new way to communicate with colleagues and friends, and I know I don&#8217;t want to be left at the mercy of the decisions previous programmers who designed certain software or websites.</p></li>
+<li><p>There are a lot of people or companies in control of technology &#8211; and thus of society and its behaviours &#8211; who are not doing a great job, sell a product for which they are simply creating an artificial demand, or whom I believe are affecting culture negatively. I feel compelled to bring to life the apps I wish exited so that perhaps the net effect of technology on the world will perhaps be just a little (or maybe a lot!) more positive.</p></li>
+<li><p>Why wouldn&#8217;t I? I think everyone should (and someday will) have at least some understanding of how programming works. Being able to program will soon not be an exception to the rule, it will be the norm. Some day NOBODY will be in the position where technology simply happens to them. Some day programming will be a section on the SATs. But why wait until then?</p></li>
+<li><p>As its name indicates, &#8220;the web&#8221; has transformed mass dissemination of information from a few-to-many model to a weblike, many-to-many model. (Think a few writers at a few newspapers distributed to many readers vs. Twitter, where everyone is both a writer and a reader). Technology affects every individual and the larger blob of society that all those individuals form, but decisions about technology with these far-reaching effects are made by a few huge tech companies and by a few individuals (relative to population) who know how to write code. When the day comes that everyone knows how to write code, this one-way flow will become a web of mutual exchange, just as communication has. Again, why wait until then? I want to realize and participate in that exchange now!</p></li>
+</ul>
+
+
+<p>I&#8217;d like to point readers to a blog post by my (very smart) friend Casey Gollan: <em><a href="http://caseyagollan.com/user-generated-content/">User-Generated Content</a></em></p>
+
+<p>Abstract:</p>
+
+<blockquote><p>The way things are now is more like a pile up of metaphors and recycled code than laws of interaction which are set in stone. Designing computer systems is a strangely direct way of altering how people experience the world and relate to each other. Perhaps in the coming years artists will be able to create new platforms with the conceptual backbone that is lacking in today’s popular offerings.</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Video: Wendy Chun - The Enduring Ephemeral, Or The Future Is A Memory]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/07/video-wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory/"/>
+    <updated>2013-02-07T23:09:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/07/video-wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory</id>
+    <content type="html"><![CDATA[<p><a href="http://video.dma.ucla.edu/video/wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory/19">Click Here</a></p>
+
+<p>Wendy&#8217;s blub about the lecture:</p>
+
+<blockquote><p>Key to the digital as the new is an ideological conflation of memory and storage that undermines and underlines digital media&#8217;s archival promise. Memory, with its constant degeneration, does not equal storage; although artificial memory has historically combined the transitory with the permanent, the passing with the stable, digital media complicates this relationship by making the permanent into an enduring ephemeral. As I explain in this talk, it does so not simply through some inherent technological feature, but rather because everyday usage and parlance seeks to arrest memory and its degenerative possibilities in order to support dreams of digital programmability, of the future unfolding predictably from memory. Unpacking the theoretical implications of constantly disseminated and
+regenerated digital content, this paper argues these dreams create, rather than solve, archival nightmares. They proliferate non-simultaneous enduring ephemerals.</p></blockquote>
+
+<p>I first watch this video maybe a year ago, and really enjoyed it. Wendy Chun teaches at Brown in the Modern Culture and Media department.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[testing]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/06/testing/"/>
+    <updated>2013-02-06T11:32:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/06/testing</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/05/hello-world/"/>
+    <updated>2013-02-05T19:15:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/05/hello-world</id>
+    <content type="html"><![CDATA[<h2>Hello!</h2>
+
+<p>This is my first blog post on Octopress. I am looking forward to documenting my time spent at the Flatiron School, and will probably post thoughts about other things as well.</p>
+]]></content>
+  </entry>
+  
+</feed>

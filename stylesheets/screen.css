@@ -79,8 +79,22 @@ a
 
 .inner
 {
-  width:860px;
+  width:1000px;
   margin:0 auto
+}
+
+.left
+{
+  width: 780px;
+  float: left;
+  padding-right: 20px;
+}
+
+.right
+{
+  width: 180px;
+  float: right;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 1040px) {
@@ -216,7 +230,7 @@ a
 {
   content:"→";
   color:#ccc;
-  font:12px FontAwesome;
+  font:12px ;
   padding-left:10px
 }
 
@@ -785,7 +799,7 @@ a
 #pagenavi .prev:before
 {
   content:"→";
-  font:1.3em FontAwesome;
+  font:1.3em;
   position:absolute;
   left:0
 }
@@ -799,7 +813,7 @@ a
 #pagenavi .next:before
 {
   content:"→1";
-  font:1.3em FontAwesome;
+  font:1.3em;
   position:absolute;
   right:0
 }
@@ -820,10 +834,14 @@ a
 
 article
 {
-  border-bottom:1px solid #ddd;
-  border-top:1px solid #fff;
+  border-top:1px solid #ddd;
   padding:10px 0;
   position:relative
+}
+
+article:first-of-type
+{
+  border-top: none;
 }
 
 @media screen and (max-width: 800px) {
@@ -1257,7 +1275,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 footer
 {
   padding:15px 0;
-  border-top:1px solid #fff;
+  border-top:1px solid #ddd;
   text-align:center;
   font-size:.9em
 }

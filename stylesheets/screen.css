@@ -1023,10 +1023,12 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   border-bottom:1px solid #ddd
 }
 
+/*
 .post h2.title,.post .entry-content
 {
   margin-left:200px
 }
+*/
 
 @media screen and (max-width: 800px) {
   .post h2.title,.post .entry-content
@@ -1037,7 +1039,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 
 .post .meta
 {
-  position:absolute;
+  /* position:absolute; */
   top:85px;
   line-height:2;
   font-size:.9em;

@@ -228,7 +228,7 @@ end
 desc "savesource"
 task :savesource do
 	system "cd /octopress"
-	system "git add ."
+	system "git add -A"
 	system "git commit -m '#{Time.now.strftime('%Y-%m-%d %H:%M')}'"
 	system "git push origin source"
 end

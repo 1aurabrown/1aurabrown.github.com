@@ -223,9 +223,22 @@ task :deploy do
   Rake::Task["#{deploy_default}"].execute
 end
 
-desc "Generate website and deploy"
-task :gen_deploy => [:integrate, :generate, :deploy] do
+
+
+desc "savesource"
+task :savesource do
+	system "cd /octopress"
+	system "git add ."
+	system "git commit -m '#{Time.now.strftime('%Y-%m-%d %H:%M')}'"
+	system "git push origin source"
 end
+
+
+desc "Generate website and deploy"
+task :gen_deploy => [:integrate, :generate, :savesource, :deploy] do
+end
+
+
 
 desc "copy dot files for deployment"
 task :copydot, :source, :dest do |t, args|
@@ -381,3 +394,5 @@ task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
 end
+
+

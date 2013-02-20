@@ -4,8 +4,17 @@
 <body>
 	<header id="header" class="inner">{% include header.html %}</header>
 	
-	<div id="content" class="inner">{{ content | expand_urls: root_url }}</div>
-	<footer id="footer" class="inner">{% include footer.html %}</footer>
+
+  <div id="main" class = "inner clearfix">
+  
+
+	<div id="content" class="left">{{ content | expand_urls: root_url }}</div>
+	
+  <div id="sidebar" class="right"><ul><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li></ul></div>
+  
+  </div>
+  
+  <footer id="footer" class="inner">{% include footer.html %}</footer>
 	{% include after_footer.html %}
 </body>
 </html>

@@ -228,6 +228,7 @@ a
 
 #main-nav>ul>li>a:after
 {
+  font-family: 'Courier New';
   content:"→";
   color:#ccc;
   font:12px ;
@@ -321,6 +322,7 @@ a
 
 #main-nav>ul ul li>a:after
 {
+  font-family: 'Courier New';
   content:"→";
   color:#999;
   font:12px FontAwesome;
@@ -432,14 +434,16 @@ a
 
 #mobile-nav .menu .button.on:before
 {
-  content:"→"
+  font-family: 'Courier New';
+  content:"→";
 }
 
 #mobile-nav .menu .button:before
 {
+  font-family: 'Courier New';
   content:"→";
   color:#ddd;
-  font:16px FontAwesome;
+  font:16px ;
   line-height:30px;
   position:absolute;
   top:0;
@@ -500,6 +504,7 @@ a
 
 #mobile-nav .search .button:before
 {
+  font-family: 'Courier New';
   content:"→";
   color:#f2f2f2;
   font:20px FontAwesome;
@@ -516,6 +521,7 @@ a
 
 #mobile-nav .search .button.on:before
 {
+  font-family: 'Courier New';
   content:"→"
 }
 
@@ -576,6 +582,7 @@ a
 
 #sub-nav .search:before
 {
+  font-family: 'Courier New';
   content:"→";
   color:#ccc;
   font:18px FontAwesome;
@@ -798,6 +805,7 @@ a
 
 #pagenavi .prev:before
 {
+  font-family: 'Courier New';
   content:"→";
   font:1.3em;
   position:absolute;
@@ -892,6 +900,7 @@ article .entry-content .more-link
 
 article .entry-content .more-link:before
 {
+  font-family: 'Courier New';
   content:"→";
   font:1.3em FontAwesome;
   line-height:1.6em;
@@ -1001,6 +1010,7 @@ article .entry-content .caption
 
 article .entry-content .caption:before
 {
+  font-family: 'Courier New';
   content:"→";
   color:#ccc;
   font:1.3em FontAwesome;
@@ -1089,17 +1099,19 @@ article .entry-content .video-container iframe,article .entry-content .video-con
 
 .post .meta .date,.post .meta .tags,.post .meta .comments
 {
-  padding-left:30px;
-  position:relative
+  position:absolute;
+  margin-left: 4px;
 }
 
-.post .meta .date:before,.post .meta .tags:before,.post .meta .comments:before
-{
+ .meta .date:before, .meta .tags:before, .meta .comments:before
+ {
   color:#ccc;
-  font:1.3em FontAwesome;
   line-height:1.6em;
-  position:absolute;
-  left:0
+  font-family: 'Courier New';
+  content:"→";
+  bottom:2px;
+  position:relative;
+  left: -4px;
 }
 
 @media screen and (max-width: 800px) {
@@ -1115,33 +1127,15 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   }
 }
 
-.post .meta .date:before
-{
-  content:"→"
-}
-
-.post .meta .tags:before
-{
-  content:"→"
-}
-
-.post .meta .comments:before
-{
-  content:"→"
-}
 
 .archives
 {
   position:relative
 }
 
-.archives:last-of-type:before
+.archives:last-of-type
 {
-  content:"";
-  position:absolute;
-  bottom:0;
-  width:200px;
-  border-top:1px solid #ddd
+  margin-bottom:20px;
 }
 
 .archives .year
@@ -1242,20 +1236,7 @@ article .entry-content .video-container iframe,article .entry-content .video-con
   color:#666
 }
 
-.archives article .meta .date:before
-{
-  content:"→"
-}
 
-.archives article .meta .tags:before
-{
-  content:"→"
-}
-
-.archives article .meta .comments:before
-{
-  content:"→"
-}
 
 #comment
 {

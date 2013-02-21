@@ -4,7 +4,7 @@
   <title><![CDATA[Laura's Octopress Blog]]></title>
   <link href="http://1aurabrown.github.com/atom.xml" rel="self"/>
   <link href="http://1aurabrown.github.com/"/>
-  <updated>2013-02-20T18:50:12-05:00</updated>
+  <updated>2013-02-20T19:14:45-05:00</updated>
   <id>http://1aurabrown.github.com/</id>
   <author>
     <name><![CDATA[Laura Brown]]></name>
@@ -12,6 +12,18 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Out Embedded Video with Octopress]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress/"/>
+    <updated>2013-02-20T19:08:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress</id>
+    <content type="html"><![CDATA[<h2>Let&#8217;s see if this works!</h2>
+
+<div class="embed-video-container"><iframe src="http://player.vimeo.com/video/29627778 "></iframe></div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Why I'm Learning to Program]]></title>

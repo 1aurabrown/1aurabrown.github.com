@@ -11,6 +11,10 @@ function getNav() {
   mobileNav.children('select').bind('change', function(event) {
     if (event.target.value) { window.location.href = event.target.value; }
   });
+<<<<<<< HEAD
+=======
+  mobileNav.children('select').val('');
+>>>>>>> dd730b5e3c08e6400c5be84fded786cc97bf59b4
 }
 
 function addSidebarToggler() {

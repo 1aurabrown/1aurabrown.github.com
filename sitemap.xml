@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+<<<<<<< HEAD
         <loc>http://1aurabrown.github.com/blog/2013/02/05/hello-world/</loc>
         <lastmod>2013-02-12T20:59:16-05:00</lastmod>
     </url>
@@ -37,5 +38,33 @@
     <url>
         <loc>http://1aurabrown.github.com/robots.txt</loc>
         <lastmod>2013-02-12T20:59:09-05:00</lastmod>
+=======
+        <loc>
+            http://1aurabrown.github.com/blog/2013/02/07/video-wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory/
+        </loc>
+        <lastmod>2013-02-24T03:48:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://1aurabrown.github.com/blog/2013/02/12/why-im-learning-to-program/</loc>
+        <lastmod>2013-02-24T03:48:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress/
+        </loc>
+        <lastmod>2013-02-24T03:48:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://1aurabrown.github.com/blog/archives/</loc>
+        <lastmod>2013-02-24T03:48:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://1aurabrown.github.com/</loc>
+        <lastmod>2013-02-24T03:48:39-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://1aurabrown.github.com/robots.txt</loc>
+        <lastmod>2013-02-20T13:23:16-05:00</lastmod>
+>>>>>>> dd730b5e3c08e6400c5be84fded786cc97bf59b4
     </url>
 </urlset>

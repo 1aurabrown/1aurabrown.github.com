@@ -4,7 +4,11 @@
   <title><![CDATA[Laura's Octopress Blog]]></title>
   <link href="http://1aurabrown.github.com/atom.xml" rel="self"/>
   <link href="http://1aurabrown.github.com/"/>
+<<<<<<< HEAD
   <updated>2013-02-12T22:39:47-05:00</updated>
+=======
+  <updated>2013-02-24T04:04:30-05:00</updated>
+>>>>>>> dd730b5e3c08e6400c5be84fded786cc97bf59b4
   <id>http://1aurabrown.github.com/</id>
   <author>
     <name><![CDATA[Laura Brown]]></name>
@@ -14,6 +18,21 @@
 
   
   <entry>
+<<<<<<< HEAD
+=======
+    <title type="html"><![CDATA[Testing Out Embedded Video with Octopress]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress/"/>
+    <updated>2013-02-20T19:08:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress</id>
+    <content type="html"><![CDATA[<h2>Let&#8217;s see if this works!</h2>
+
+<div class="embed-video-container"><iframe src="http://player.vimeo.com/video/29627778 " width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+]]></content>
+  </entry>
+  
+  <entry>
+>>>>>>> dd730b5e3c08e6400c5be84fded786cc97bf59b4
     <title type="html"><![CDATA[Why I'm Learning to Program]]></title>
     <link href="http://1aurabrown.github.com/blog/2013/02/12/why-im-learning-to-program/"/>
     <updated>2013-02-12T09:31:00-05:00</updated>
@@ -44,7 +63,11 @@
     <id>http://1aurabrown.github.com/blog/2013/02/07/video-wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory</id>
     <content type="html"><![CDATA[<p><a href="http://video.dma.ucla.edu/video/wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory/19">Click Here</a></p>
 
+<<<<<<< HEAD
 <p>Wendy&#8217;s blub about the lecture:</p>
+=======
+<p>Wendy&#8217;s blurb about the lecture:</p>
+>>>>>>> dd730b5e3c08e6400c5be84fded786cc97bf59b4
 
 <blockquote><p>Key to the digital as the new is an ideological conflation of memory and storage that undermines and underlines digital media&#8217;s archival promise. Memory, with its constant degeneration, does not equal storage; although artificial memory has historically combined the transitory with the permanent, the passing with the stable, digital media complicates this relationship by making the permanent into an enduring ephemeral. As I explain in this talk, it does so not simply through some inherent technological feature, but rather because everyday usage and parlance seeks to arrest memory and its degenerative possibilities in order to support dreams of digital programmability, of the future unfolding predictably from memory. Unpacking the theoretical implications of constantly disseminated and
 regenerated digital content, this paper argues these dreams create, rather than solve, archival nightmares. They proliferate non-simultaneous enduring ephemerals.</p></blockquote>
@@ -53,6 +76,7 @@ regenerated digital content, this paper argues these dreams create, rather than 
 ]]></content>
   </entry>
   
+<<<<<<< HEAD
   <entry>
     <title type="html"><![CDATA[testing]]></title>
     <link href="http://1aurabrown.github.com/blog/2013/02/06/testing/"/>
@@ -73,4 +97,6 @@ regenerated digital content, this paper argues these dreams create, rather than 
 ]]></content>
   </entry>
   
+=======
+>>>>>>> dd730b5e3c08e6400c5be84fded786cc97bf59b4
 </feed>

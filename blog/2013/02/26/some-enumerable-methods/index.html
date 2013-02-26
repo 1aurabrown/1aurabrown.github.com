@@ -1,24 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Laura's Octopress Blog]]></title>
-  <link href="http://1aurabrown.github.com/atom.xml" rel="self"/>
-  <link href="http://1aurabrown.github.com/"/>
-  <updated>2013-02-26T03:39:11-05:00</updated>
-  <id>http://1aurabrown.github.com/</id>
-  <author>
-    <name><![CDATA[Laura Brown]]></name>
+<!DOCTYPE HTML>
+<html>
+<head>
+
+
+	<meta charset="utf-8">
+	<title>Ruby Iterators: Enumerable Methods, Part I - Laura's Octopress Blog</title>
+	<meta name="author" content="Laura Brown">
+
+	
+	<meta name="description" content="#each and #map As someone new to Ruby who has a fairly limited lexicon of method names, I often have no idea that Ruby already contains a method to &hellip;">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link href="/atom.xml" rel="alternate" title="Laura's Octopress Blog" type="application/atom+xml">
+	<link rel="canonical" href="">
+	<link href="/favicon.png" rel="shortcut icon">
+	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/stylesheets/rve-styles.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<header id="header" class="inner"><h1><a href="/">Laura's Octopress Blog</a></h1>
+<nav id="main-nav"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</nav>
+<nav id="mobile-nav">
+	<div class="alignleft menu">
+		<a class="button">Menu</a>
+		<div class="container"><ul class="main">
+	<li><a href="/">Blog</a></li>
+	<li><a href="/blog/archives">Archives</a></li>
+</ul>
+</div>
+	</div>
+	<div class="alignright search">
+		<a class="button"></a>
+		<div class="container">
+			<form action="http://google.com/search" method="get">
+				<input type="text" name="q" results="0">
+				<input type="hidden" name="q" value="site:1aurabrown.github.com">
+			</form>
+		</div>
+	</div>
+</nav>
+<nav id="sub-nav" class="alignright">
+	<div class="social">
+		
+		
+		
+		<a class="twitter" href="http://twitter.com/1aurabrown" title="Twitter">Twitter</a>
+		
+		
+		<a class="github" href="https://github.com/1aurabrown" title="GitHub">GitHub</a>
+		
     
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+    <a class="pinboard" href="https://pinboard.in/u:laurabrown" title="Pinboard">Pinboard</a>
+    
+		
+		
+		
+		
+		
+		<a class="rss" href="/atom.xml" title="RSS">RSS</a>
+		
+	</div>
+	<form class="search" action="http://google.com/search" method="get">
+		<input class="alignright" type="text" name="q" results="0">
+		<input type="hidden" name="q" value="site:1aurabrown.github.com">
+	</form>
+</nav>
 
+</header>
+	
+
+  <div id="main" class = "inner clearfix">
   
-  <entry>
-    <title type="html"><![CDATA[Ruby Iterators: Enumerable Methods, Part I]]></title>
-    <link href="http://1aurabrown.github.com/blog/2013/02/26/some-enumerable-methods/"/>
-    <updated>2013-02-26T00:00:00-05:00</updated>
-    <id>http://1aurabrown.github.com/blog/2013/02/26/some-enumerable-methods</id>
-    <content type="html"><![CDATA[<h2>#each and #map</h2>
+
+	<div id="content" class="left"><article class="post">
+	<h2 class="title">Ruby Iterators: Enumerable Methods, Part I</h2>
+	<div class="entry-content"><h2>#each and #map</h2>
 
 <p>As someone new to Ruby who has a fairly limited lexicon of method names, I often have no idea that Ruby already contains a method to accomplish exactly what I am trying to achieve. Sometimes when I&#8217;m writing code, after constructing a sequence of method calls or wrapping some logic in my own method, I then find that Ruby has a built in method to abstract a common pattern, producing the same result in just one or two lines of code.</p>
 
@@ -190,59 +256,59 @@ i * 2
 <p>Abstracting behaviors that will be used again and again is always a good decision. Utilizing yield in this method allowed us to abstract everthing execept the exact way in which each element of the original array would be transformed. The distracting and confusing logic of iteration and return values is separated from the code where the method is called, where all we really want is the result of all that logic. Using <code>yield</code> makes the method highly versatile&#8211;the logic is standardized, but we can specify the way in which the elements of the original array should be transformed. So long as we want to iterate over an array and return a new modified array, this method is applicable. This is of course why the makers of Ruby included it!</p>
 
 <p>There are other methods that can be called on Enumerable objects that behave in slightly different ways. They follow a similar model&#8211;iteration and return values are abstracted. These too can be built using <code>each</code>. Building these methods from scratch helps to understand the subtle differences between them and. For me, it is a useful way to practice using <code>yield</code> and to add another build in Ruby method to my vocabulary.</p>
-]]></content>
-  </entry>
+</div>
+
+
+<div class="meta">
+
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/code/'>code</a>, <a class='category' href='/blog/categories/enumerable/'>enumerable</a>, <a class='category' href='/blog/categories/ruby/'>ruby</a>
+
+</div>
+		
+
+</div></article>
+
+	<div class="share">
+	<div class="addthis_toolbox addthis_default_style ">
+	
+	
+	<a class="addthis_button_tweet"></a>
+	
+	
+	<a class="addthis_counter addthis_pill_style"></a>
+	</div>
+  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
+</div>
+
+
+</div>
+	
+  <div id="sidebar" class="right"><ul><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li><li>alskdjf</li><li>alksdjflkajsdf</li></ul></div>
   
-  <entry>
-    <title type="html"><![CDATA[Testing Out Embedded Video with Octopress]]></title>
-    <link href="http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress/"/>
-    <updated>2013-02-20T19:08:00-05:00</updated>
-    <id>http://1aurabrown.github.com/blog/2013/02/20/testing-out-embedded-video-with-octopress</id>
-    <content type="html"><![CDATA[<h2>Let&#8217;s see if this works!</h2>
-
-<div class="embed-video-container"><iframe src="http://player.vimeo.com/video/29627778 " width="100%" height="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
-]]></content>
-  </entry>
+  </div>
   
-  <entry>
-    <title type="html"><![CDATA[Why I'm Learning to Program]]></title>
-    <link href="http://1aurabrown.github.com/blog/2013/02/12/why-im-learning-to-program/"/>
-    <updated>2013-02-12T09:31:00-05:00</updated>
-    <id>http://1aurabrown.github.com/blog/2013/02/12/why-im-learning-to-program</id>
-    <content type="html"><![CDATA[<h2>Here are my thoughts, in a more or less logical order, on why I&#8217;d like to be a programmer:</h2>
+  <footer id="footer" class="inner">
 
-<ul>
-<li><p>Technology and the internet dictates culture, society and behaviour. Those in control of technology hold great power.</p></li>
-<li><p>I do not want to be a passive bystander, I want to be in control of the way I use techonology and how technology affects me. I watch my mom using her computer, limited to the ways in which her software permits her to use it, feeling that she has to sign up for Facebook because it has become the new way to communicate with colleagues and friends, and I know I don&#8217;t want to be left at the mercy of the decisions previous programmers who designed certain software or websites.</p></li>
-<li><p>There are a lot of people or companies in control of technology &#8211; and thus of society and its behaviours &#8211; who are not doing a great job, sell a product for which they are simply creating an artificial demand, or whom I believe are affecting culture negatively. I feel compelled to bring to life the apps I wish exited so that perhaps the net effect of technology on the world will perhaps be just a little (or maybe a lot!) more positive.</p></li>
-<li><p>Why wouldn&#8217;t I? I think everyone should (and someday will) have at least some understanding of how programming works. Being able to program will soon not be an exception to the rule, it will be the norm. Some day NOBODY will be in the position where technology simply happens to them. Some day programming will be a section on the SATs. But why wait until then?</p></li>
-<li><p>As its name indicates, &#8220;the web&#8221; has transformed mass dissemination of information from a few-to-many model to a weblike, many-to-many model. (Think a few writers at a few newspapers distributed to many readers vs. Twitter, where everyone is both a writer and a reader). Technology affects every individual and the larger blob of society that all those individuals form, but decisions about technology with these far-reaching effects are made by a few huge tech companies and by a few individuals (relative to population) who know how to write code. When the day comes that everyone knows how to write code, this one-way flow will become a web of mutual exchange, just as communication has. Again, why wait until then? I want to realize and participate in that exchange now!</p></li>
-</ul>
+Copyright &copy; 2013
+
+    Laura Brown
+
+</footer>
+	<script src="/javascripts/slash.js"></script>
+<script src="/javascripts/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+	$('.fancybox').fancybox();
+})(jQuery);
+</script> <!-- Delete or comment this line to disable Fancybox -->
 
 
-<p>I&#8217;d like to point readers to a blog post by my (very smart) friend Casey Gollan: <em><a href="http://caseyagollan.com/user-generated-content/">User-Generated Content</a></em></p>
 
-<p>Abstract:</p>
 
-<blockquote><p>The way things are now is more like a pile up of metaphors and recycled code than laws of interaction which are set in stone. Designing computer systems is a strangely direct way of altering how people experience the world and relate to each other. Perhaps in the coming years artists will be able to create new platforms with the conceptual backbone that is lacking in today’s popular offerings.</p></blockquote>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Video: Wendy Chun - The Enduring Ephemeral, Or The Future Is A Memory]]></title>
-    <link href="http://1aurabrown.github.com/blog/2013/02/07/video-wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory/"/>
-    <updated>2013-02-07T23:09:00-05:00</updated>
-    <id>http://1aurabrown.github.com/blog/2013/02/07/video-wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory</id>
-    <content type="html"><![CDATA[<p><a href="http://video.dma.ucla.edu/video/wendy-chun-the-enduring-ephemeral-or-the-future-is-a-memory/19">Click Here</a></p>
 
-<p>Wendy&#8217;s blurb about the lecture:</p>
 
-<blockquote><p>Key to the digital as the new is an ideological conflation of memory and storage that undermines and underlines digital media&#8217;s archival promise. Memory, with its constant degeneration, does not equal storage; although artificial memory has historically combined the transitory with the permanent, the passing with the stable, digital media complicates this relationship by making the permanent into an enduring ephemeral. As I explain in this talk, it does so not simply through some inherent technological feature, but rather because everyday usage and parlance seeks to arrest memory and its degenerative possibilities in order to support dreams of digital programmability, of the future unfolding predictably from memory. Unpacking the theoretical implications of constantly disseminated and
-regenerated digital content, this paper argues these dreams create, rather than solve, archival nightmares. They proliferate non-simultaneous enduring ephemerals.</p></blockquote>
-
-<p>I first watch this video maybe a year ago, and really enjoyed it. Wendy Chun teaches at Brown in the Modern Culture and Media department.</p>
-]]></content>
-  </entry>
-  
-</feed>
+</body>
+</html>

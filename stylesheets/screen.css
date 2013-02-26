@@ -1270,7 +1270,7 @@ article code,article pre
 
 article code
 {
-  font-size:.9em;
+  font-size:.8em;
   padding:1px 3px;
   margin:0 3px;
   -webkit-border-radius:5px;
@@ -1282,9 +1282,9 @@ article code
 
 article pre
 {
-  font-size:1/0.9em;
-  line-height:1.5;
-  margin-top:10px;
+  font-size:.8em;
+  margin-top:20px;
+  margin-bottom:20px;
   padding:5px 15px;
   overflow-x:auto;
   -webkit-border-radius:5px;

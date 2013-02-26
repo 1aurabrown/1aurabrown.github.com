@@ -55,6 +55,9 @@ a
   color:#888
 }
 
+
+
+
 .alignleft
 {
   float:left
@@ -850,6 +853,11 @@ article
 article:first-of-type
 {
   border-top: none;
+}
+
+article ul{
+  list-style-type: none;
+  line-height: 2;
 }
 
 @media screen and (max-width: 800px) {

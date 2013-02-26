@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: links | Laura's Octopress Blog]]></title>
+  <link href="http://1aurabrown.github.com/blog/categories/links/atom.xml" rel="self"/>
+  <link href="http://1aurabrown.github.com/"/>
+  <updated>2013-02-26T12:19:12-05:00</updated>
+  <id>http://1aurabrown.github.com/</id>
+  <author>
+    <name><![CDATA[Laura Brown]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Links on Cloud Computing]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/26/links-on-cloud-computing/"/>
+    <updated>2013-02-26T10:37:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/26/links-on-cloud-computing</id>
+    <content type="html"><![CDATA[<p>Today we talked a bit about cloud computing and Amazon Web Services. Most of the people I know and the writers I read who have an opinion on "The Cloud" are skeptical, to varying degrees. I don't feel as strongly as many people, but in class today, I felt like the most suspicious person in the room.</p>
+
+<p>Different models for data structure, ownership and distribution inherently promote a certain ideology. In the current model a single private company, Amazon, is responsible for the hosting of most of what people access on the internet. Whether or not you like this, it's a reality. As uncomfortable as I may be with one company motivated by private interests holding the majority of the internet in its hands, Amazon offers more than any other cloud hosting provider. I'm happy to utilize Amazon's services, but as I think it's important to be aware of the criticism surrounding the political implications of the structure of the internet.</p>
+
+<p>The links below represent some opinions on cloud computing. I may just be re-inforcing my own biases by reading the writers I know I like and the writers they have chosen to cite, but I thought I'd post some (mostly skeptical) writing about cloud computing from my Pinboard.</p>
+
+<ul>
+<li><a href="http://www.poetryfoundation.org/harriet/2012/04/why-i-dont-trust-the-cloud/">Article by the foudner of Ubuweb</a></li>
+<li><a href="http://www.guardian.co.uk/media-network/2012/jun/11/clear-thinking-cloud">Article by Charles Arthur, tech writer for the Guardian, whose writing a generally like</a></li>
+<li><a href="http://www.wired.com/wired/archive/8.07/haven.html"><i>Wired</i> article on Sealand</a></li>
+<li><a href="http://www.nextgov.com/cloud-computing/2012/10/op-ed-encryption-not-restriction-key-safe-cloud-computing/58608/">Cloud computing and security</a></li>
+<li><a href="http://bollier.org/blog/cloud-computing-enclosure">Dystopian outlook on cloud computing</a></li>
+<li><a href="http://brie.berkeley.edu/publications/WP_197%20update%206.13.11.pdf">PDF of a paper cited in above article</a></li>
+<li><a href="http://www.insidehighered.com/views/2011/05/02/slavoj_zizek_essay_on_cloud_computing_and_privacy">Zizek on cloud computing</a></li>
+<li><a href="http://www.wired.com/wiredenterprise/category/secret-servers-2/">Some more articles from Wired</a></li>
+</ul>
+
+
+<p>A bunch of Metahaven stuff:</p>
+
+<ul>
+<li><a href="http://www.e-flux.com/journal/captives-of-the-cloud-part-i/">Part I of Metahaven's <i>Captives of the Cloud</i> series for e-flux</a></li>
+<li><a href="http://www.e-flux.com/journal/captives-of-the-cloud-part-ii/">Part II of Metahaven's <i>Captives of the Cloud</i> series for e-flux</a></li>
+<li><a href="http://www.momaps1.org/exhibitions/view/368">Metahaven show at PS 1</a></li>
+<li><a href="http://nulpunt.nu/">Metahaven video</a></li>
+<li><a href="http://mthvn.tumblr.com/post/38457685064/decentralizationdesignandthecloud">Metahaven interview Eleanor Saitta. Links to her writing can be found in the introduction</a></li>
+<li><a href="http://mthvn.tumblr.com/post/38098461078/thecloudthestateandthestack">Metahaven interview Benjamin Bratton</a></li>
+</ul>
+
+
+<p>I've got a folder of a few dozen journal articles that focus specifically on cloud computing and law (copyright, access to data by gernments and private entities), with less of a theoretical bent, which I hope to post in the future.</p>
+]]></content>
+  </entry>
+  
+</feed>

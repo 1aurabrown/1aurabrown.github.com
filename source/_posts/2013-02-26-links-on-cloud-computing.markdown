@@ -4,6 +4,7 @@ title: "Links on Cloud Computing"
 date: 2013-02-26 10:37
 comments: true
 categories: links cloud
+published: false
 ---
 Today we talked a bit about cloud computing and Amazon Web Services. Most of the people I know and the writers I read who have an opinion on "The Cloud" are skeptical, to varying degrees. I don't feel as strongly as many people, but in class today, I felt like the most suspicious person in the room.
 

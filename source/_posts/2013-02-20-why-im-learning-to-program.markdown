@@ -3,7 +3,7 @@ layout: post
 title: "Why I'm Learning to Program"
 date: 2013-02-12 09:31
 comments: true
-categories: 
+categories: programming flatiron
 ---
 
 

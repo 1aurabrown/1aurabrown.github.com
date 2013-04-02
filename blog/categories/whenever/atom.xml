@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: whenever | Laura's Octopress Blog]]></title>
+  <link href="http://1aurabrown.github.com/blog/categories/whenever/atom.xml" rel="self"/>
+  <link href="http://1aurabrown.github.com/"/>
+  <updated>2013-04-01T23:14:58-04:00</updated>
+  <id>http://1aurabrown.github.com/</id>
+  <author>
+    <name><![CDATA[Laura Brown]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[An Intro to Cron]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/04/01/getting-started-with-the-whenever-gem/"/>
+    <updated>2013-04-01T21:45:00-04:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/04/01/getting-started-with-the-whenever-gem</id>
+    <content type="html"><![CDATA[<p>Until recently, I knew very little about cron jobs. I've wanted to know how to schedule recurring events to run in the background, but did not know where to get started. About a week ago, I implemented the Whenever gem for the first time, a gem I had read about but did not feel confident in using. Whenever is a Ruby gem that makes it very easy to schedule cron jobs to run in the background at regular intervals. Whenever has its own DSL that is then transformed into a format that cron understands. Using the Whenever gem turned out out to be quite simple and promted me to learn more about how cron works.</p>
+
+<h2>What is cron?</h2>
+
+<p>Cron is a daemon that runs on your computer or on your app's server that executes jobs at specific times. Between scheduled jobs, cron sleeps for the calculated interval until the next scheduled job. When it wakes, it checks the current time against the job's scheduled time and executes the job as scheduled.</p>
+
+<p>To add jobs to cron's queue, you must to a crontab file. Cron automatically looks for a crontab file (or many, if you have more than one), to in order to find about events that should be scheduled.</p>
+
+<h2>Crontab File Syntax</h2>
+
+<p>Cron has its own syntax; it looks something like this:</p>
+
+<pre style = "white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;">
+59 23 * * * echo “This command is run daily at 11:59 pm”
+</pre>
+
+
+<h2>Timing</h2>
+
+<p>This first five values (<code>59 23 * * *</code>) represent the time at which an event is scheduled to occur. The first value represents minutes, the second represents hours, the third is the day of the month, the fourth is the month and the fifth is the day of the week. These are all represented numerically, however the month and the day of the week can also be represented using abbreviations like JAN, FEB, SUN or MON.</p>
+
+<p>If you set values for both the day of the month and the day of the week, the event will take place whenever either condition is met. For example if you set your event to take place on the 3rd day of the month and also on Tuesdays, the event will fire any day that is a Tuesday OR (not AND) the third day of the month.</p>
+
+<p>An asterisk (*) indicates that the event should occur for any value in the given field. In the example above, the event is scheduled to take place any day of the month, any month, and any day of the week.</p>
+
+<p>There are additional special characters that I have not had occasion to use, but which would definitely come in handy to anyone scheduling jobs at very specific intervals. The wikipedia entry on cron, though by no means an exhaustive resource for cron documentaion, does a good job explaining many--perhaps all--of the special characters you can use to indicate time in your crontab file. <a href="See%20Here.">http://en.wikipedia.org/wiki/Cron#Special_characters</a></p>
+
+<h2>Give cron a command</h2>
+
+<p>What follows is the command to be executed at the indicated time. You can load a script saved in a file or enter commands directly into the crontab.If I want to check that my command works, I can highlight, copy and paste everything after my timing fields into terminal and execute the exact code that will be run at the time I scheduled.</p>
+
+<p>For my project with the Whenever gem, the commands in my crontab file were more complicated than the simple <code>echo</code> command in the example above. Executing a cronjob in a Rails app requires loading your app's environment into memory so that cron is aware of all your classes, methods and variables. This is where the Whenever gem comes in to help. Stay tuned for another post on setting up the Whenever gem to generate your crontab file for you in order to execute jobs from the context of your Rails app.</p>
+]]></content>
+  </entry>
+  
+</feed>

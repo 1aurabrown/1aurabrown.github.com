@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: datamapper, | Laura's Octopress Blog]]></title>
+  <link href="http://1aurabrown.github.com/blog/categories/datamapper-/atom.xml" rel="self"/>
+  <link href="http://1aurabrown.github.com/"/>
+  <updated>2013-04-01T23:21:34-04:00</updated>
+  <id>http://1aurabrown.github.com/</id>
+  <author>
+    <name><![CDATA[Laura Brown]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Small Pleasures]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/24/small-pleasures/"/>
+    <updated>2013-02-24T03:07:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/24/small-pleasures</id>
+    <content type="html"><![CDATA[<p>I managed to get something up on Heroku!</p>
+
+<hr />
+
+<p>This past Friday, we built our first app that actually functions in a browser. It allows you to enter some text, save it to a database, and view all
+the entries in that database. For some reason I had a rough time putting this on Heroku on Friday, but today I had no problems.
+<a href="http://www.blacktm.com/talks/building_web_apps_with_rack_and_sinatra#messages">Here's</a> the original assignment. The files come with enough code to get you
+started, but leave enough out to require some thinking.</p>
+
+<p>See my first lil appy <a href="http://laura-messages.herokuapp.com/">here</a>!</p>
+]]></content>
+  </entry>
+  
+</feed>

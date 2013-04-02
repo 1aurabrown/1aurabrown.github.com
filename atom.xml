@@ -4,7 +4,7 @@
   <title><![CDATA[Laura's Octopress Blog]]></title>
   <link href="http://1aurabrown.github.com/atom.xml" rel="self"/>
   <link href="http://1aurabrown.github.com/"/>
-  <updated>2013-04-01T23:14:58-04:00</updated>
+  <updated>2013-04-01T23:21:34-04:00</updated>
   <id>http://1aurabrown.github.com/</id>
   <author>
     <name><![CDATA[Laura Brown]]></name>
@@ -230,6 +230,24 @@ i * 2
 <p>Abstracting behaviors that will be used again and again is always a good decision. Utilizing yield in this method allowed us to abstract everthing execept the exact way in which each element of the original array would be transformed. The distracting and confusing logic of iteration and return values is separated from the code where the method is called, where all we really want is the result of all that logic. Using <code>yield</code> makes the method highly versatile&#8211;the logic is standardized, but we can specify the way in which the elements of the original array should be transformed. So long as we want to iterate over an array and return a new modified array, this method is applicable. This is of course why the makers of Ruby included it!</p>
 
 <p>There are other methods that can be called on Enumerable objects that behave in slightly different ways. They follow a similar model&#8211;iteration and return values are abstracted. These too can be built using <code>each</code>. Building these methods from scratch helps to understand the subtle differences between them and. For me, it is a useful way to practice using <code>yield</code> and to add another build in Ruby method to my vocabulary.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Small Pleasures]]></title>
+    <link href="http://1aurabrown.github.com/blog/2013/02/24/small-pleasures/"/>
+    <updated>2013-02-24T03:07:00-05:00</updated>
+    <id>http://1aurabrown.github.com/blog/2013/02/24/small-pleasures</id>
+    <content type="html"><![CDATA[<p>I managed to get something up on Heroku!</p>
+
+<hr />
+
+<p>This past Friday, we built our first app that actually functions in a browser. It allows you to enter some text, save it to a database, and view all
+the entries in that database. For some reason I had a rough time putting this on Heroku on Friday, but today I had no problems.
+<a href="http://www.blacktm.com/talks/building_web_apps_with_rack_and_sinatra#messages">Here&#8217;s</a> the original assignment. The files come with enough code to get you
+started, but leave enough out to require some thinking.</p>
+
+<p>See my first lil appy <a href="http://laura-messages.herokuapp.com/">here</a>!</p>
 ]]></content>
   </entry>
   

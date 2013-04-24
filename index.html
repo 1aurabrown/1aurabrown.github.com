@@ -9,7 +9,7 @@
 	<meta name="author" content="Laura Brown">
 
 	
-	<meta name="description" content="Until recently, I knew very little about cron jobs. I&#8217;ve wanted to know how to schedule recurring events to run in the background, but did not &hellip;">
+	<meta name="description" content="Yesterday I decided to read up on sorting algorithms, a topic I&#8217;d previously assumed would be over my head. It turns out I was completely &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -83,6 +83,94 @@
   
 
 	<div id="content" class="left">
+
+
+    <article class="post">
+<div class = "meta">
+	<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-04-23T09:34:00-04:00" pubdate data-updated="true">Apr 23<span>rd</span>, 2013</time></div>
+</div>
+	<h2 class="title">
+		
+		<a href="/blog/2013/04/23/merge-sort/">
+		
+			Merge Sort</a>
+	</h2>
+	<div class="entry-content">
+		<p>Yesterday I decided to read up on sorting algorithms, a topic I&#8217;d previously assumed would be over my head. It turns out I was completely wrong, and I had a lot of fun writing my own merge sort algorithm!</p>
+
+<pre>
+  def merge(a,b)
+    sorted_list=[]
+    while !a.empty? && !b.empty?
+      if a.first &lt b.first
+        sorted_list &lt&lt a.shift
+      elsif a.first &gt b.first
+        sorted_list &lt&lt b.shift
+      elsif a.first==b.first
+        sorted_list&lt &lt a.shift
+        b.shift
+      end
+    end
+      ((sorted_list&lt&lta)&lt&ltb).flatten!
+  end
+
+  def sort(list)
+    if list.length &lt=1
+      return list
+    else
+      middle = (list.length/2)-1
+      a=list[0..middle]
+      b=list[middle+1..list.length]
+      merge(sort(a),sort(b))
+    end
+  end
+</pre>
+
+
+<h2>How does it work?</h2>
+
+<p>Mergesort can be broken down into two parts, which are here divided into two different methods.</p>
+
+<p>The <code>merge</code> method accepts two ordered lists, and combines them into one ordered list by comparing the first value of each of these two input lists and sequentially moving the lower value into a new list:</p>
+
+<p><img class="center" src="/images/merge.gif"></p>
+
+<p>But if all we have is one unordered list which needs to be sorted, how will a method requiring two ordered lists help us? If we had two ordered lists that each contained half of the numbers of the original list, we could merge the two together to create one ordered list. We can start by breaking our single unordered list in half at the center of the list. Now have two unordered lists half the length of the original, but what we want is two <i>ordered</i> lists. We are faced with the same problem as before: our two unordered lists <i>could</i> be ordered if only we had two smaller ordered lists. If we continue to halve our lists further and further, we can eventually isolate each element of our large unsorted list, resulting in many lists containing only one element. A list containing only one element is inherrently ordered, so once we have broken down our original list to this level, we can begin to merge our many little lists back together.</p>
+
+<p>The process of splitting the unsorted list in half recursively is very similar to a binary tree. In terms of the call stack, the mergesort algorithm decends all the way down each branch of the tree, one at a time, splititng lists at nodes as necessary. Although the original unsorted list is immediately split, the second resultant half-list isn&#8217;t touched again until sorting of the first half-list is complete, which may require further splitting, decending and merging. This is because of the way sort is recurssively called within itself: <code>merge(sort(a),sort(b))</code>, where <code>sort(a)</code> must be complete before <code>sort(b)</code>. List <code>a</code> is now the input list being passed to <code>sort()</code>, and is itself split into component lists <code>a</code> and <code>b</code>, on which <code>sort(a)</code> and <code>sort(b)</code> will be called yet again. The recursive call is not executed when the length of the input list is 1 and cannot be split any further, at which point we move up a level in the call stack and either descend down another branch to sort another list, or merge two lists together. You can see this demonstrated in the following animation:</p>
+
+<p><img class="center" src="/images/mergesort.gif"></p>
+
+<p>Building mergesort was easier than I&#8217;d expected but still a fun challenge. I hope to write out the code for some of the other sort algorithms in the coming week.</p>
+
+		
+		
+	</div>
+
+
+<div class="meta">
+
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/algorithms/'>algorithms</a>, <a class='category' href='/blog/categories/sorting/'>sorting</a>
+
+</div>
+		
+
+</div></article>
 
 
     <article class="post">
